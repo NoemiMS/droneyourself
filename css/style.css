@@ -846,8 +846,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Pricing Section
 --------------------------------*/
 #pricing {
-  padding: 60px 0 60px 0;
-  overflow: hidden;
+    overflow: hidden;
+    background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 80px 0;
 }
 
 #pricing .box {
@@ -864,10 +866,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 28px;
 }
 
+
 #pricing h4 {
   font-size: 46px;
   color: #1dc8cd;
   font-weight: 300;
+}
+
+#pricing .section-header .section-title {
+  color: #fff;
+}
+
+#pricing .section-header .section-divider {
+    background: none repeat scroll 0 0 #fff;
+}
+#pricing .section-header .section-description {
+    color: #fff;
 }
 
 #pricing h4 sup {
@@ -977,53 +991,53 @@ body.mobile-nav-active #mobile-nav-toggle {
   content: "\f2c7" !important;
 }
 
-/* Our Team Section
+/* experience Section
 --------------------------------*/
-#team {
+#experience {
   padding: 60px 0;
   overflow: hidden;
 }
 
-#team .member {
+#experience .member {
   text-align: center;
   margin-bottom: 20px;
 }
 
-#team .member .pic {
+#experience .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
   height: 260px;
 }
 
-#team .member .pic img {
+#experience .member .pic img {
   max-width: 100%;
 }
 
-#team .member h4 {
+#experience .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
 
-#team .member span {
+#experience .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-#team .member .social {
+#experience .member .social {
   margin-top: 15px;
 }
 
-#team .member .social a {
+#experience .member .social a {
   color: #b3b3b3;
 }
 
-#team .member .social a:hover {
+#experience .member .social a:hover {
   color: #1dc8cd;
 }
 
-#team .member .social i {
+#experience .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
